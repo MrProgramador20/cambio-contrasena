@@ -1,6 +1,14 @@
 {
+  "name": "n8n-railway",
+  "version": "1.0.0",
+  "description": "Instancia n8n en Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start --tunnel"
+  },
   "dependencies": {
+    "n8n": "^0.229.0",
     "bcryptjs": "^3.0.2",
-    "crypto": "^1.0.1"
+    "mysql2": "^3.5.2"
   }
 }
